@@ -17,7 +17,7 @@ export const VerticalContainer = styled.div`
   flex-direction: column;
   min-width: 800px;
   width: 100%;
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
 
 `;
 

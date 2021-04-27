@@ -24,6 +24,14 @@ const Cardsbar: React.FC = () => {
           <Link to='' className='key'>On hold</Link>
           <Link to='' className='value'>64</Link>
         </Card>
+        <Card>
+          <Link to='' className='key'>On hold</Link>
+          <Link to='' className='value'>64</Link>
+        </Card>
+        <Card>
+          <Link to='' className='key'>On hold</Link>
+          <Link to='' className='value'>64</Link>
+        </Card>
         
       </Container>
       

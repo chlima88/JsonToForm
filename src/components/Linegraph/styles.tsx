@@ -2,11 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 30px 1fr 30px;
-  max-width: 950px;
-  overflow: hidden;
+  display: flex;
+  width: 99%;
+  height: 100%;
   padding: 32px;
 
   

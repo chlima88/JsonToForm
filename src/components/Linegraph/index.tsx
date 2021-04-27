@@ -33,7 +33,7 @@ const data = {
 const Linegraph: React.FC = () => {
     return (
       <Container>
-        <Line type="line" data={data} />
+        <Line options={{maintainAspectRatio: false}} type="line" data={data} />
       </Container>
     );
 

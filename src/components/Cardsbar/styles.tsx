@@ -4,12 +4,15 @@ import { darken  }  from 'polished';
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-auto-rows: minmax(max-content,1fr); 
-  justify-content: space-evenly;
+  grid-auto-rows: minmax(max-content, 1fr); 
+  justify-content: space-evenly; 
+  overflow: auto;
   
-  height: 134px;
+  height: 135px;
   margin: 0 30px 0;
   grid-gap: 30px;
+
+  
 
 `
 
@@ -22,7 +25,7 @@ export const Card = styled.div`
   flex: 1;
 
   min-width: 250px;
-  min-height: 135px;
+  height: 135px;
   background-color: #ffffff;
   border: 1px solid #DFE0EB;
   border-radius: 8px;
@@ -55,10 +58,11 @@ export const Card = styled.div`
   &:hover {
       /* background-color: ${darken(0.09, '#fff')}; */
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-color: tomato;
 
       a {
         color: tomato;
-        border-color: tomato;
+        
       }
     }
 
